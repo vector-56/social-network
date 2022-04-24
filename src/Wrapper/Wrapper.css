@@ -1,0 +1,23 @@
+.Wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #6fb8b8;
+}
+
+.Wrapper .sidebar {
+  background-color: beige;
+  width: 250px;
+}
+
+.Wrapper .sidebar ul > li {
+  list-style-type: none;
+}
+
+.Wrapper .posts {
+  background-color: cadetblue;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/*# sourceMappingURL=Wrapper.module.css.map */

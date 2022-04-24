@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  background-color: rgb(111, 184, 184);
+
+
+  .sidebar{
+    background-color: beige;
+    width: 250px;
+
+    ul > li {
+      list-style-type: none;
+    }
+  }
+
+  .content{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+    .bgimg{
+      background-color: aquamarine;
+      height: 100px;
+    }
+
+    .posts{
+      background-color: cadetblue;
+      padding: 20px; 
+    }
+
+  }
+
+  
+}
