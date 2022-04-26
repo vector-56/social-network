@@ -1,0 +1,14 @@
+.post{
+    display: flex;
+    padding: 15px;
+
+    .avatar{
+        background-image: url(./../img/avatar.svg);
+        height: 50px;
+        width: 50px;
+    }
+
+    p {
+        padding-left: 15px;
+    }
+}

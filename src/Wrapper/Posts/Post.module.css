@@ -1,0 +1,17 @@
+.post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+.post .avatar {
+  background-image: url(./../img/avatar.svg);
+  height: 50px;
+  width: 50px;
+}
+
+.post p {
+  padding-left: 15px;
+}
+/*# sourceMappingURL=Post.module.css.map */

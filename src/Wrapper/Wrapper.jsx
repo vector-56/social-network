@@ -1,4 +1,5 @@
 import React from "react";
+import Post from "./Posts/Post";
 import stl from "./Wrapper.module.css";
 
 const Wrapper = () => {
@@ -15,13 +16,10 @@ const Wrapper = () => {
             </div>
             <div className={stl.content}>
                 <div className={stl.bgimg}>
-                    Картинка
                 </div>
-                <div className={stl.posts}>
-                    <p>Post</p>
-                    <p>Post</p>
-                    <p>Post</p>
-                </div>
+                <Post message="First post" likescount="13" />
+                <Post message="Second post" likescount="14" />
+                <Post message="Third post" likescount="4" />
             </div>
         </div>
     );
