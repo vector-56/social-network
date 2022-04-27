@@ -3,16 +3,17 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import stl from './App.module.css';
 import Wrapper from './Wrapper/Wrapper'
-import Sidebar from './Wrapper/Sidebar/Sidebar'
+import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   return (
+    <BrowserRouter>
       <div className={stl.wrapper}>
         <Header />
-        <Sidebar />
         <Wrapper />
         <Footer />
       </div>
+      </BrowserRouter>
   );
 }
 
