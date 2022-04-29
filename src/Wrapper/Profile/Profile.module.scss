@@ -1,3 +1,15 @@
-.profile {
-    color: brown;
-}
+.wrapper .content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+  
+  .wrapper .content .bgimg {
+    background-image: url(./../img/bg.svg);
+    height: 200px;
+  }
+  
+  .wrapper .content .posts {
+    background-color: cadetblue;
+    padding: 20px;
+  }
