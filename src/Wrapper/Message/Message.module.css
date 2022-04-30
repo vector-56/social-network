@@ -1,4 +1,23 @@
 .message {
-  color: #3ed2da;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.message .dialogs {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.message .dialogList {
+  width: 100px;
+}
+
+.message .dialogList ul > li {
+  list-style-type: none;
 }
 /*# sourceMappingURL=Message.module.css.map */

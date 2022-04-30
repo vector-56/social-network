@@ -1,6 +1,7 @@
 .headBlock {
   background-color: aqua;
   padding-left: 20px;
+  height: 10vh;
 }
 
 .headBlock h2 {

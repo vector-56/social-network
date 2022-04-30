@@ -1,0 +1,14 @@
+.newPost {
+  margin: 15px;
+}
+
+.newPost input {
+  width: 80%;
+  height: 50px;
+}
+
+.newPost button {
+  width: 70px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=NewPost.module.css.map */

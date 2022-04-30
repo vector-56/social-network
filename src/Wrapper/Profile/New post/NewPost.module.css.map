@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,IAAI;CAab;;AAdD,AAGE,QAHM,CAGN,KAAK,CAAC;EACJ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CAEb;;AAPH,AASE,QATM,CASN,MAAM,CAAC;EACL,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "NewPost.module.scss"
+    ],
+    "names": [],
+    "file": "NewPost.module.css"
+}

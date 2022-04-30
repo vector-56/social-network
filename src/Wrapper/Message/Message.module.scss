@@ -1,3 +1,16 @@
 .message {
-    color: rgb(62, 210, 218);
+    display: flex;
+    flex-grow: 1;
+
+    .dialogs {
+        flex-grow: 1;
+    }
+
+    .dialogList {
+        width: 100px;
+
+        ul>li {
+            list-style-type: none;
+        }
+    }
 }
