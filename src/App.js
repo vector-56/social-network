@@ -10,15 +10,16 @@ import Music from './Wrapper/Music/Music';
 import Setting from './Wrapper/Setting/Setting';
 import { Route, Routes } from 'react-router-dom';
 
-const App = () => {
+const App = (props) => {
+
   return (
     <div className={stl.wrapper}>
       <Header />
       <div className={stl.content}>
       <Wrapper />
       <Routes>
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/message" element={<Message />} />
+        <Route path="/profile" element={<Profile PostsData={props.PostsData}/>} />
+        <Route path="/message" element={<Message DialogsData={props.DialogsData} MessagesData={props.MessagesData}/>} />
         <Route path="/news" element={<News />} />
         <Route path="/music" element={<Music />} />
         <Route path="/setting" element={<Setting />} />
