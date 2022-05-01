@@ -1,12 +1,32 @@
 .wrapper {
   display: flex;
+  flex-direction: column;
+  width: 180px;
+
 
   .sidebar{
     background-color: beige;
-    width: 250px;
+    flex-grow: 1;
+  
  
     ul > li {
       list-style-type: none;
+    }
+
+  }
+
+  .friends {
+
+    background-color: rgb(98, 176, 150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    p {
+      width: 100%;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
     }
   }
 
@@ -27,5 +47,4 @@
 
   }
 
-  
 }

@@ -1,0 +1,16 @@
+.friendBlock {
+  width: 80px;
+  height: 90px;
+}
+
+.friendBlockAvatar {
+  background-image: url(./../img/avatar.svg);
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.friendBlockName {
+  text-align: center;
+}
+/*# sourceMappingURL=Friend.module.css.map */

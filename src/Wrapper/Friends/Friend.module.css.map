@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAE,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACb;;AAED,AAAA,kBAAkB,CAAC;EACjB,gBAAgB,EAAE,wBAAwB;EAC1C,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,MAAM;CACf;;AAED,AAAA,gBAAgB,CAAC;EACf,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "Friend.module.scss"
+    ],
+    "names": [],
+    "file": "Friend.module.css"
+}
