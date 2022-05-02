@@ -3,7 +3,12 @@ import stl from "./Wrapper.module.css";
 import { Link } from "react-router-dom";
 import Friend from "./Friends/Friends";
 
-const Wrapper = () => {
+const Wrapper = (props) => {
+
+
+
+let friendsItem = props.friendsData.map( friend => <Friend id={friend.id} name={friend.name} /> )
+
     return (
         <div className={stl.wrapper}>
             <div className={stl.sidebar}>
@@ -17,11 +22,7 @@ const Wrapper = () => {
             </div>
             <div className={stl.friends}>
                 <p>Friends</p>
-                <Friend id="1" name="Alex"/>
-                <Friend id="2" name="Damian"/>
-                <Friend id="3" name="Kliff"/>
-                <Friend id="4" name="Olly"/>
-                <Friend id="5" name="Nick"/>                        
+                {friendsItem}                     
             </div>
        </div>
     );

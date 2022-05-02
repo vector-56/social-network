@@ -31,11 +31,24 @@ let MessagesData = [
   { id: 5, dialogText: 'Say' },
 ]
 
+let friendsData = [
+  {id: 1 , name: 'Alex'},
+  {id: 2 , name: 'Damien'},
+  {id: 3 , name: 'Kliff'},
+  {id: 4 , name: 'Olly'},
+  {id: 5 , name: 'Nick'},
+] 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App PostsData={PostsData} DialogsData={DialogsData} MessagesData={MessagesData}/>
+      <App 
+      PostsData={PostsData} 
+      DialogsData={DialogsData} 
+      MessagesData={MessagesData}
+      friendsData={friendsData}
+      />
     </BrowserRouter>
   </React.StrictMode>
 );

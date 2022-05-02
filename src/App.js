@@ -16,7 +16,7 @@ const App = (props) => {
     <div className={stl.wrapper}>
       <Header />
       <div className={stl.content}>
-      <Wrapper />
+      <Wrapper friendsData={props.friendsData} />
       <Routes>
         <Route path="/profile" element={<Profile PostsData={props.PostsData}/>} />
         <Route path="/message" element={<Message DialogsData={props.DialogsData} MessagesData={props.MessagesData}/>} />
