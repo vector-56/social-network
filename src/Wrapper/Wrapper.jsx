@@ -5,8 +5,6 @@ import Friend from "./Friends/Friends";
 
 const Wrapper = (props) => {
 
-
-
 let friendsItem = props.friendsData.map( friend => <Friend id={friend.id} name={friend.name} /> )
 
     return (

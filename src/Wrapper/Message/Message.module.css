@@ -7,17 +7,54 @@
           flex-grow: 1;
 }
 
-.message .dialogs {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
 .message .dialogList {
   width: 100px;
 }
 
 .message .dialogList ul > li {
   list-style-type: none;
+}
+
+.message .newDialogMessage {
+  background-color: bisque;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.message .newDialogMessage .dialogs {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.message .newDialogMessage .dialogMessage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: aqua;
+  height: 15vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.message .newDialogMessage .dialogMessage textarea {
+  width: 80%;
+  height: 80%;
+  margin: 0 25px 0 0;
+}
+
+.message .newDialogMessage .dialogMessage button {
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=Message.module.css.map */

@@ -17,6 +17,13 @@ const Message = (props) => {
 
     let DialogItem = props.DialogsData.map(dialog => <DialogListData id={dialog.id} dialogName={dialog.dialogName} />)
 
+    let newDialogMessage = React.createRef();
+
+    let addNewDialogMessage = () => {
+        let text = newDialogMessage.current.value;
+        alert (text);
+    }
+
     return (
         <div className={stl.message}>
             <div className={stl.dialogList}>
@@ -24,8 +31,14 @@ const Message = (props) => {
                     {DialogItem}
                 </ul>
             </div>
-            <div className={stl.dialogs}>
-                {MessageItem}
+            <div className={stl.newDialogMessage}>
+                <div className={stl.dialogs}>
+                    {MessageItem}
+                </div>
+                <div className={stl.dialogMessage}>
+                    <textarea ref = {newDialogMessage} placeholder="Starting type new message..."></textarea>
+                    <button onClick = {addNewDialogMessage} >Send</button>
+                </div>
             </div>
         </div>
     );

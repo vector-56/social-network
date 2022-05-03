@@ -2,9 +2,7 @@
     display: flex;
     flex-grow: 1;
 
-    .dialogs {
-        flex-grow: 1;
-    }
+
 
     .dialogList {
         width: 100px;
@@ -12,5 +10,39 @@
         ul>li {
             list-style-type: none;
         }
+    }
+
+    .newDialogMessage {
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+
+        .dialogs {
+            flex-grow: 1;
+        }
+
+        .dialogMessage {
+            display: flex;
+            background-color: aqua;
+            height: 15vh;
+            align-items: center;
+
+
+            textarea {
+                width: 80%;
+                height: 80%;
+                margin: 0 25px 0 0;
+            }
+
+            button {
+                height: 40px;
+                width: 80px;
+                border-radius: 10px;
+            }
+
+        }
+
     }
 }
