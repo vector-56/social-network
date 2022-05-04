@@ -8,15 +8,14 @@
 }
 
 .message .dialogList {
-  width: 100px;
+  width: 140px;
 }
 
-.message .dialogList ul > li {
+.message .dialogList ul {
   list-style-type: none;
 }
 
 .message .newDialogMessage {
-  background-color: bisque;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,8 +38,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: aqua;
-  height: 15vh;
+  height: 12vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

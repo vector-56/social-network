@@ -5,7 +5,7 @@
 
 
   .sidebar{
-    background-color: beige;
+    background-color: rgb(250, 250, 211);
     flex-grow: 1;
   
  
@@ -17,7 +17,7 @@
 
   .friends {
 
-    background-color: rgb(98, 176, 150);
+    background-color: rgb(133, 204, 180);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -41,7 +41,6 @@
     }
 
     .posts{
-      background-color: cadetblue;
       padding: 20px; 
     }
 

@@ -1,14 +1,20 @@
 .newPost {
   margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .newPost input {
   width: 80%;
-  height: 50px;
 }
 
 .newPost button {
   width: 70px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 /*# sourceMappingURL=NewPost.module.css.map */

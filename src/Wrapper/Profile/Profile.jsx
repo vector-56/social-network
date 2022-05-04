@@ -10,8 +10,8 @@ const Profile = (props) => {
     return (
         <div className={stl.content}>
             <div className={stl.bgimg}>
+                <NewPost />
             </div>
-            <NewPost />
             {PostItem}
         </div>
     );

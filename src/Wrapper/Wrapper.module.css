@@ -10,7 +10,7 @@
 }
 
 .wrapper .sidebar {
-  background-color: beige;
+  background-color: #fafad3;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -21,7 +21,7 @@
 }
 
 .wrapper .friends {
-  background-color: #62b096;
+  background-color: #85ccb4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,7 +58,6 @@
 }
 
 .wrapper .content .posts {
-  background-color: cadetblue;
   padding: 20px;
 }
 /*# sourceMappingURL=Wrapper.module.css.map */

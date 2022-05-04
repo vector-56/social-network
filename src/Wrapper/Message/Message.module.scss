@@ -5,15 +5,14 @@
 
 
     .dialogList {
-        width: 100px;
+        width: 140px;
 
-        ul>li {
+        ul {
             list-style-type: none;
         }
     }
 
     .newDialogMessage {
-        background-color: bisque;
         display: flex;
         flex-direction: column;
         flex-grow: 1;
@@ -25,8 +24,7 @@
 
         .dialogMessage {
             display: flex;
-            background-color: aqua;
-            height: 15vh;
+            height: 12vh;
             align-items: center;
 
 
