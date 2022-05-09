@@ -1,24 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
 import state from './State/State';
+import { rerenderEntireTree } from './State/render'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App 
-      PostsData={state.profilePage.PostsData} 
-      DialogsData={state.messagePage.DialogsData} 
-      MessagesData={state.messagePage.MessagesData}
-      friendsData={state.wrapperPage.friendsData}
-      />
-    </BrowserRouter>
-  </React.StrictMode>
-);
+rerenderEntireTree(state);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -10,7 +10,7 @@ const Profile = (props) => {
     return (
         <div className={stl.content}>
             <div className={stl.bgimg}>
-                <NewPost />
+                <NewPost addPost={props.addPost}/>
             </div>
             {PostItem}
         </div>
